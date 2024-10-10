@@ -13,7 +13,7 @@ frm.addEventListener('submit', (e) => {
     resposta.innerText = `O valor de Celsius convertido em Fahrenheit é: ${numeroConvertido}°F`;
     resposta.style.color = '#4CAF50';
   } else {
-    mostrarPopup("Por favor, insira um valor válido!");
+    mostrarPopup("Campo vazio!");
   }
 })
 
